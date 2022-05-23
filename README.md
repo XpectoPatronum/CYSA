@@ -95,7 +95,7 @@ Otherwise
 
 * **onResults1** : Once a hand **and** face is detected, does similar functions to **onResults**.
 
-Between line 274 to 293, the "FaceMesh" and "Hands" models are looaded into *facemesh* and *hands* respectively with certain parameters like minimum Detection confidence (=0.8 used)
+Between line 274 to 293, the "FaceMesh" and "Hands" models are loaded into *facemesh* and *hands* respectively with certain parameters like minimum Detection confidence (=0.8 used)
 
 
 * **together** : In this, we are passing **onResults**, **onResults1** in the onResults method of facemesh and hands.
