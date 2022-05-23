@@ -1,6 +1,6 @@
 Authors - Aryan Tyagi, Prakhar 
 
-FOR  BACKGROUND  FUNCTIONALITY,  OPEN THIS WEBSITE IN A SEPARATE WINDOW AND DO WHATEVER YOU WANT AFTER HOVERING ON THE MINIMISED BROWSER ICON THROUGH 
+FOR  BACKGROUND  FUNCTIONALITY,  OPEN THIS WEBSITE IN A SEPARATE WINDOW AND DO WHATEVER YOU WANT AFTER HOVERING ON THE MINIMISED BROWSER ICON THROUGH THE TASKBAR
 
 # Welcome to CYSA's documentation
 Be sure to check out our app at <link>. Also checkout the [Hands](https://google.github.io/mediapipe/solutions/hands.html) & [FaceMesh](https://google.github.io/mediapipe/solutions/face_mesh.html) model of Mediapipe, an open source framework from Google, the backbone of our app.
