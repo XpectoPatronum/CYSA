@@ -59,11 +59,11 @@
   }
 
   .cursor-yellow {
-    cursor: url('cursor.png') 5.5 5.5, move;
+    cursor: auto;
   }
 
   .cursor-blue {
-    cursor: url('cursor-light.png') 11.75 10, move;
+    cursor: auto;
   }
 
   /* Cursor changing code ends here */
@@ -599,4 +599,232 @@
 	50% {
 		opacity: 0.6;
 	}
+}
+/* MOBILE VERSION */
+@media (max-width: 500px)
+{
+
+}
+/* TABLET VERSION */
+@media screen and (max-width: 1500px) and (orientation: landscape){
+  .arm-length
+  {
+    top: 36%;
+    left: 25%;
+  }
+  .switch1{
+    left: 10%;
+  }
+  .switch2{
+    left: 10%;
+  }
+  .h3_status0{
+    left: 60%;
+  }
+  .h3_status1{
+    left: 60%;
+  }
+  .h3_status2{
+    left: 60%;
+  }
+  .status_1{
+    left: 60%;
+  }
+  .status_2{
+    left: 60%;
+  }
+  .cam_on{
+    left: 29%;
+  }
+  .cam_off{
+    left: 20%;
+  }
+  #count_up_timer{
+    left: 75%;
+  }
+  .container{
+    font-size: 1.5rem;
+    width: 80%;
+    height: 80%;
+    color: gray;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+  .arm-length
+  {
+    top: 26%;
+    left: 40%;
+  }
+  .cam_pos
+  {
+    top: 21%;
+    left: 20%;
+  }
+  .heading1{
+    left: 20%;
+  }
+
+  .h3_status0{
+    top: 60%;
+    left: 30%;
+  }
+  .h3_status1{
+    top: 64%;
+    left: 30%;
+  }
+  .h3_status2{
+    top: 68%;
+    left: 30%;
+  }
+  .status_1{
+    top: 63%;
+    left: 30%;
+  }
+  .status_2{
+    top: 67%;
+    left: 30%;
+  }
+  #count_up_timer
+  {
+    top: 60%;
+    left: 53%;
+  }
+  .cam_on
+  {
+    left: 55%;
+  }
+  .cam_off
+  {
+    left: 45%;
+  }
+  .switch0
+  {
+    left: 49%;
+
+  }
+  .check_1{
+    left: 35%;
+  }
+  .check_2{
+    left: 35%;
+  }
+  .switch1{
+    left: 70%;
+  }
+  .switch2{
+    left: 70%;
+  }
+  .switch0{
+    bottom: 15.5%;
+  }
+  .moon{
+    top: 4.65%;
+    right: 4.1%;
+  }
+  .container{
+    font-size: 1.5rem;
+    width: 80%;
+    height: 60%;
+    color: gray;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .arm-length
+  {
+    top: 30%;
+    left: 40%;
+    width: auto;
+  }
+  .cam_pos
+  {
+    left: 12%;
+  }
+  .heading1{
+    left: 13%;
+    top: 60%;
+    font-size: 4rem;
+  }
+
+  .h3_status0{
+    top: 70%;
+    left: 30%;
+  }
+  .h3_status1{
+    top: 74.5%;
+    left: 30%;
+  }
+  .h3_status2{
+    top: 78%;
+    left: 30%;
+  }
+  .status_1{
+    top: 72%;
+    left: 30%;
+  }
+  .status_2{
+    top: 77%;
+    left: 30%;
+  }
+  #count_up_timer
+  {
+    top: 70%;
+    left: 73%;
+    font-size: 2rem;
+  }
+  .cam_on
+  {
+    top: 95%;
+    left: 80%;
+  }
+  .cam_off
+  {
+    top: 95%;
+    left: 55%;
+  }
+  .switch0
+  {
+    top: 96%;
+    left: 65%;
+
+  }
+  .check_1{
+    top: 105%;
+    left: 30%;
+  }
+  .check_2{
+    top: 110%;
+    left: 30%;
+  }
+  .switch1{
+    left: 99%;
+    top: 106%;
+  }
+  .switch2{
+    left: 99%;
+    top: 111%;
+  }
+  .switch0{
+    bottom: 15.5%;
+  }
+  .color-button{
+    right: -35%;
+    top: 4%;
+  }
+  .i-button{
+    right: -35%;
+    bottom: -40%;
+  }
+  .moon{
+    right: -33%;
+    top: 5%;
+  }
+  .container{
+    width: 110%;
+    left: 10%;
+    top: 20%;
+    height: 90%;
+    font-size: 1.4rem;
+    color:gray;
+  }
 }
